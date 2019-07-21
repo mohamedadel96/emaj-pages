@@ -1,0 +1,57 @@
+.add_place_pop {
+    width: 412px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border: 1px solid #ddd
+}
+
+.add_place_pop .head {
+    background: #F5F5F5;
+    border-radius: 5px 5px 0 0;
+}
+
+.add_place_pop .head .title h1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #58595B;
+}
+
+.add_place_pop .head .icon img {
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s
+}
+
+.add_place_pop .head .icon img:hover {
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.add_place_pop ul {
+    width: 100%;
+    padding: 0;
+}
+
+.add_place_pop ul li {
+    list-style: none;
+    margin: 8px 0;
+}
+
+.add_place_pop ul li input {
+    text-align: right;
+    border: 1px solid #d0d0d0;
+    padding: 13px 18px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14.5px;
+    color: #AAAAAA;
+}
+
+.add_place_pop ul li input:focus {
+    outline: 1px solid #999
+}
+
+.options button {
+    width: 103px;
+    font-size: 14px;
+    height: 40px;
+}

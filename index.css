@@ -1,0 +1,156 @@
+.settings {
+    background: #fff;
+    width: 100%;
+    padding-bottom: 70px;
+    border-radius: 5px;
+}
+
+.settings .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 22px 13px 0 0;
+}
+
+.settings .title h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.settings .lists ul {
+    padding: 0 9px;
+}
+
+.settings .lists ul li {
+    list-style: none;
+    border: 1px solid #d0d0d0;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 18px;
+    border-radius: 5px;
+    margin: 8px 0;
+    -webkit-transition: border 500ms ease-out;
+    -moz-transition: border 500ms ease-out;
+    -o-transition: border 500ms ease-out;
+    transition: border 500ms ease-out;
+    cursor: pointer;
+}
+
+.settings .lists ul li:hover {
+    border: 1px solid #777;
+}
+
+.settings .lists ul li h4 {
+    font-size: 16px;
+}
+
+.settings_main {
+    background: #fff;
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 1px 1px 5px #ddd;
+}
+
+.settings_main .head {
+    background: #f5f5f5;
+}
+
+.settings_main .head h1 {
+    padding: 7px 13px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.settings_main .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.settings_main .logo img {
+    width: 82px;
+    height: 82px;
+    margin-top: 22px;
+    border-radius: 50%;
+}
+
+.settings_main .logo .i-logo {
+    background: #0097d1;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 14px;
+    margin-top: 22px;
+}
+
+.settings_main form {
+    margin-top: 30px;
+}
+
+.settings_main form .inputs {
+    margin: 10px 0;
+}
+
+.settings_main form .inputs input {
+    width: 95%;
+    padding: 7px 18px 7px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.settings_main form .inputs input[type="text"] {
+    padding: 9.5px 18px 10.5px 0;
+}
+
+.settings_main form button {
+    margin-left: 23px;
+}
+
+@media only screen and (max-width: 770px) {
+    .settings_main input {
+        width: 100% !important;
+    }
+    .settings_main button {
+        margin-left: 0 !important;
+    }
+}
+
+.settings_MP {
+    background: #fff;
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 1px 1px 5px #ddd;
+}
+
+.settings_MP .head {
+    background: #f5f5f5;
+}
+
+.settings_MP .head h1 {
+    padding: 7px 13px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.settings_MP thead th {
+    color: #000;
+    font-weight: 400;
+}
+
+.settings_MP span {
+    cursor: pointer;
+}
+
+.settings_MP span:hover {
+    box-shadow: 1px 1px 2px #ddd;
+    border-radius: 6px;
+}

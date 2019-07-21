@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- this section what you need only and the style is already on emaj project -->
+        <section class="rulling p-2">
+            <div class="f-title p-2">
+                <h1>الإعدادات | حوكمة المجلس</h1>
+            </div>
+            <div class="blocks">
+                <section class="block mb-3">
+                    <div class="p-1 pr-4 pl-3 s-title d-flex justify-content-between flex-row-reverse">
+                        <div>
+                            <h3>
+                                تشكيل مجلس الإدارة
+                            </h3>
+                        </div>
+                        <div>
+                            <h3>
+                                خيارات
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            يجب أن يكون عدد اعضاء مجلس الادارة على الاقل
+                                        </span>
+                                        <span class="num">
+                                            9
+                                        </span>
+                                        <span>
+                                            وعلى الاكثر
+                                        </span>
+                                        <span class="num">
+                                            11
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            دمج لجنتي المكافآت والترشيحات
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            حصر تشكيل لجنة المكافآت والترشيحات على المستقلين وغير التنفيذيين
+                                        </span>
+                                        <span class="num">
+                                            %20
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            الحد الأقصى لمدة انعقاد المجلس
+                                        </span>
+                                        <span class="num">
+                                            9
+                                        </span>
+                                        <span>
+                                            سنوات 
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            الاشعار عند تغيب أحد أعضاء المجلس لعدد
+                                        </span>
+                                        <span class="num">
+                                            3
+                                        </span>
+                                        <span>
+                                            جلسات متتاليه 
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            الاشعار في حال قد امضى احد اعضاء المجلس
+                                        </span>
+                                        <span class="num">
+                                            3
+                                        </span>
+                                        <span>
+                                        سنوات متصله او
+                                        </span>
+
+                                        <span class="num">
+                                            7
+                                        </span>
+                                        <span>
+                                            سنوات منفصله في عضويه المجلس
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            الاشعار عند تغيب أحد أعضاء المجلس لعدد
+                                        </span>
+                                        <span class="num">
+                                            3
+                                        </span>
+                                        <span>
+                                            جلسات متتاليه
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="block mb-3">
+                    <div class="p-1 pr-4 pl-3 s-title d-flex justify-content-between flex-row-reverse">
+                        <div>
+                            <h3>
+                                إجراءات عمل مجلس الإدارة
+                            </h3>
+                        </div>
+                        <div>
+                            <h3>
+                                خيارات
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            يعقد مجلس الإدارة
+                                        </span>
+                                        <span class="num">
+                                            4
+                                        </span>
+                                        <span>
+                                            اجتماع في السنة على الأقل، بما لا يقل عن
+                                        </span>
+                                        <span class="num">
+                                            1
+                                        </span>
+                                        <span>
+                                            اجتماع كل ثلاثه اشهر
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            إرسال الدعوة للاجتماع إلى كل عضو من أعضاء المجلس قبل  
+                                        </span>
+                                        <span class="num">
+                                            4
+                                        </span>
+                                        <span>
+                                            يوم من تاريخ الاجتماع
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            يكون نصاب الاجتماع قانوني إذا حضر
+                                        </span>
+                                        <span class="num">
+                                            %20
+                                        </span>
+                                        <span>
+                                           من الاعضاء
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            لا يقل عدد الحاضرين عن
+                                        </span>
+                                        <span class="num">
+                                            3
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            يتم احتساب أمين سر المجلس من بين الأعضاء
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            إتاحة امكانية التفويض بالتصويت بالنيابة عن احد الاعضاء
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            ترجيح لتصويت الجانب الذي صوت فيه رئيس المجلس
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="block mb-3">
+                    <div class="p-1 pr-4 pl-3 s-title d-flex justify-content-between flex-row-reverse">
+                        <div>
+                            <h3>
+                                تشكيل اللجان
+                            </h3>
+                        </div>
+                        <div>
+                            <h3>
+                                خيارات
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                                يجب ألا يقل عدد أعضاء اللجان عن
+                                            </span>
+                                        <span class="num">
+                                                4
+                                            </span>
+                                        <span>
+                                               ولا يزيد عن
+                                            </span>
+                                        <span class="num">
+                                                10
+                                            </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            دمج لجنتي المكافآت والترشيحات
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            حصر تشكيل لجنة المكافآت والترشيحات على المستقلين وغير التنفيذيين
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            منع رئيس مجلس إدارة الشركة من رئاسة لجنة المراجعة
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            ترجيح تصويت الجانب الذي صوت فيه رئيس اللجنة
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+                <section class="block mb-3">
+                    <div class="p-1 pr-4 pl-3 s-title d-flex justify-content-between flex-row-reverse">
+                        <div>
+                            <h3>
+                                لجنة المراجعة
+                            </h3>
+                        </div>
+                        <div>
+                            <h3>
+                                خيارات
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            يجب أن يكون من بين الاعضاء عدد
+                                        </span>
+                                        <span class="num">
+                                            4
+                                        </span>
+                                        <span>
+                                           عضو مستقل علي الأقل
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            منع الأعضاء التنفيذيين من المشاركة في اللجنة
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            يجب ان يكون رئيس اللجنة عضو مستقل
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            يجب ألا يقل عدد اجتماعات اللجنة عن
+                                        </span>
+                                        <span class="num">
+                                            4
+                                        </span>
+                                        <span>
+                                            اجتماعات بالسنة المالية للشركة
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </section>
+                <section class="block mb-3">
+                    <div class="p-1 pr-4 pl-3 s-title d-flex justify-content-between flex-row-reverse">
+                        <div>
+                            <h3>
+                                لجنة المكافآت والترشيحات
+                            </h3>
+                        </div>
+                        <div>
+                            <h3>
+                                خيارات
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            تجتمع اللجنة مرة واحد على الأقل سنويا
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="block mb-3">
+                    <div class="p-1 pr-4 pl-3 s-title d-flex justify-content-between flex-row-reverse">
+                        <div>
+                            <h3>
+                                لجنة المخاطر
+                            </h3>
+                        </div>
+                        <div>
+                            <h3>
+                                خيارات
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            نسبة الأعضاء غير التنفيذيين والمستقلين
+                                        </span>
+                                        <span class="num">
+                                            %4
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item d-flex justify-content-between flex-row-reverse">
+                                <div>
+                                    <p>
+                                        <span>
+                                            تجتمع اللجنة مرتين على الأقل سنويا
+                                        </span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- this section what you need only -->
+    </div>
+</body>
+
+</html>

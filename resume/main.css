@@ -1,0 +1,23 @@
+body {
+    background: #F5F5F5
+}
+
+.resume {
+    margin-top: 50px;
+    background: #fff;
+    width: 100%;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd
+}
+
+.resume .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 22px 13px 0 0;
+}
+
+.resume .title h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
